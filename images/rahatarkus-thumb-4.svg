@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="293px" height="293px" viewBox="0 0 293 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rahatarkus-thumb-4</title>
+    <defs>
+        <polygon id="path-1" points="0 0 293 0 293 293 48 293 0 245"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="tykid" transform="translate(-121.000000, -624.000000)">
+            <g id="Group" transform="translate(121.000000, 301.000000)">
+                <g id="rahatarkus-thumb-4" transform="translate(0.000000, 323.000000)">
+                    <g id="Bitmap-Copy">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <use id="Mask" fill="#3B3B47" xlink:href="#path-1"></use>
+                        <g id="star" mask="url(#mask-2)" stroke="#00000F" stroke-linejoin="round">
+                            <g transform="translate(214.000000, 212.000000)">
+                                <polygon id="Star" fill="#FF4747" transform="translate(25.240384, 29.625698) rotate(10.000000) translate(-25.240384, -29.625698) " points="25.2164754 41.708428 11.8067585 51.4992265 16.4528717 34.9601475 3.56491717 24.4848309 19.8190064 24.0170701 25.2635294 7.75216997 30.6629958 24.0021569 46.9158506 24.4252124 33.9988152 34.9360174 38.5991088 51.4623803"></polygon>
+                                <polygon id="Star-Copy" fill="#FF4747" transform="translate(29.505444, 27.510314) rotate(10.000000) translate(-29.505444, -27.510314) " points="29.4815357 39.5930434 16.0718187 49.3838419 20.7179319 32.8447629 7.82997741 22.3694462 24.0840666 21.9016855 29.5285897 5.63678536 34.9280561 21.8867723 51.1809109 22.3098278 38.2638754 32.8206328 42.864169 49.3469956"></polygon>
+                                <polygon id="Star-Copy-2" fill="#FFFCEF" transform="translate(33.770504, 25.394929) rotate(10.000000) translate(-33.770504, -25.394929) " points="33.7465959 37.4776588 20.336879 47.2684572 24.9829921 30.7293783 12.0950377 20.2540616 28.3491269 19.7863009 33.7936499 3.52140074 39.1931163 19.7713877 55.4459711 20.1944432 42.5289356 30.7052482 47.1292293 47.231611"></polygon>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="nurk-copy" transform="translate(0.000000, 245.000000)">
+                        <polygon id="Rectangle" fill="#00000F" points="0 0 48 0 48 48"></polygon>
+                        <polygon id="→" fill="#FFFFFF" points="25 13.7107278 25 15.2073264 37.952381 15.2073264 31.6394558 20.8671904 32.6462585 22.1188911 41 14.4726326 41 14.4454217 32.6462585 6.79916318 31.6394558 8.07807474 37.952381 13.7107278"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
