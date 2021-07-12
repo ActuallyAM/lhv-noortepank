@@ -14,9 +14,6 @@ a.lhv-logo {
 li {
   list-style: none;
 }
-div.content-center {
-  place-content: center;
-}
 a.btn.btn-lg.btn-dark {
   font-weight: 800;
 }
@@ -123,20 +120,11 @@ a.join-us {
   color: #fff;
   font-weight: 700;
 }
-a.join-us:hover {
-  color: #fff !important;
-  background-color: #262633;
-}
-div.second-menu {
-  font-size: 13px;
-}
+
 .second-menu {
   display: flex;
   flex-flow: row;
   justify-content: center;
-}
-.text-top {
-  text-align: center;
 }
 p.info-text {
   transform: rotate(-3deg);
@@ -151,11 +139,6 @@ p.info-text {
   font-size: 16px;
   color: #fff;
   background-color: #ff4747;
-}
-div.img-info-position {
-  display: grid;
-  grid-template-columns: 50% 50%;
-  justify-items: center;
 }
 div.info-img {
   text-align: center;
@@ -174,12 +157,11 @@ div.info-img {
   margin-bottom: 10px;
 }
 .noortekaart-title {
-  padding: 0 16px 8px 30px;
+  padding: 0 16px 8px 0;
 }
 .grey-bg {
   background: #f2f2f2;
 }
-
 .loe-lisa {
   text-decoration: none;
   color: #000;
@@ -191,7 +173,6 @@ div.info-img {
   margin: 35px 0 15px;
   height: auto;
 }
-
 .kaardi-paigutus {
   text-align: center;
 }
@@ -229,11 +210,6 @@ input[type='radio'] {
   text-decoration-line: underline;
   line-height: 30px;
 }
-.partner-title {
-  text-align: center;
-  font-size: 24px;
-  margin: 40px 0;
-}
 .timberland-logo {
   width: 150px;
   height: auto;
@@ -248,9 +224,6 @@ input[type='radio'] {
 }
 
 /* Võida noortekaardiga */
-.sajaga-title {
-  font-size: 24px;
-}
 .sajaga-edasi-gif {
   width: 100%;
   max-width: 300px;
@@ -360,9 +333,6 @@ input[type='radio'] {
   padding: 0px 5px;
   margin: 0 10px 20px 0;
 }
-.kliendiks-links {
-  margin-left: 2rem;
-}
 .ava-konto-ise ul,
 .ava-konto-ise,
 .noortekaart-list,
@@ -371,11 +341,6 @@ input[type='radio'] {
   padding-left: 0 !important;
   margin-left: 0;
 }
-.kliendiks-box-size {
-  width: 42% !important;
-  margin-right: 8% !important;
-}
-
 /* App telefonis */
 .light-grey-bg {
   background: #f9f8f7;
@@ -386,9 +351,6 @@ input[type='radio'] {
 }
 .app-list {
   align-self: center;
-}
-.app-stores {
-  padding-left: 2rem;
 }
 .mobile-screen {
   padding-left: 10%;
@@ -441,16 +403,14 @@ input[type='radio'] {
   .col-md-12 {
     width: 100%;
   }
-  .col-md-offset-3 {
-    margin-left: 25%;
+  .col-md-offset-1 {
+    margin-left: 8.33333333%;
   }
   .col-md-offset-2 {
     margin-left: 16.66666667%;
   }
-  .col-md-offset-1 {
+  .col-offset-sides {
     margin-left: 8.33333333%;
-  }
-  .col-md-offset-1-right {
     margin-right: 8.33333333%;
   }
 }
@@ -469,41 +429,11 @@ input[type='radio'] {
   .col-sm-12 {
     float: left;
   }
-  .col-sm-12 {
-    width: 100%;
-  }
-  .col-sm-11 {
-    width: 91.66666667%;
-  }
-  .col-sm-10 {
-    width: 83.33333333%;
-  }
-  .col-sm-9 {
-    width: 75%;
-  }
-  .col-sm-8 {
-    width: 66.66666667%;
-  }
-  .col-sm-7 {
-    width: 58.33333333%;
-  }
   .col-sm-6.info-img {
     width: 50%;
   }
-  .col-sm-5 {
-    width: 41.66666667%;
-  }
-  .col-sm-4 {
-    width: 33.33333333%;
-  }
   .col-sm-3 {
     width: 25%;
-  }
-  .col-sm-2 {
-    width: 16.66666667%;
-  }
-  .col-sm-1 {
-    width: 8.33333333%;
   }
 }
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -528,7 +458,7 @@ input[type='radio'] {
     height: 31px;
   }
   .step-line-right-check {
-    height: 31px;
+    height: 21px;
   }
 }
 @media only screen and (max-width: 992px) {
@@ -541,16 +471,16 @@ input[type='radio'] {
     width: 100%;
   }
   .step-line {
-    height: 72px;
+    height: 16px;
   }
   .step-line-right-sm {
-    height: 55px;
+    height: 16px;
   }
   .step-line-right-check {
-    height: 44px;
+    height: 16px;
   }
   .step-line-left-first {
-    height: 20px;
+    height: 16px;
   }
   h2.banner-text {
     margin-right: 40%;
@@ -577,6 +507,22 @@ input[type='radio'] {
     display: grid;
     grid-template-columns: auto auto auto auto;
   }
+  .soodustused-kaardiga {
+    margin-bottom: 35px;
+  }
+  .section-bottom {
+    padding: 0 0 30px 0;
+  }
+  .section-top {
+    padding-top: 30px;
+    margin-bottom: 0;
+  }
+  .section-title {
+    padding: 30px 0 30px 0;
+  }
+  .kliendiks-box {
+    margin: 20px 0;
+  }
 }
 @media only screen and (min-width: 766px) {
   .top-menu-links {
@@ -597,17 +543,10 @@ input[type='radio'] {
     height: 200px;
     width: 100%;
   }
-  .kliendiks-box-size {
-    width: 90% !important;
-    margin: 35px 15px !important;
-  }
   .step-line {
-    height: 24px;
-  }
-  .step-line-right-sm {
     height: 20px;
   }
-  .step-line-right-check {
+  .step-line-right-sm {
     height: 20px;
   }
   .step-line-left-first {
@@ -654,10 +593,13 @@ input[type='radio'] {
 }
 @media only screen and (max-width: 460px) {
   .step-line {
-    height: 35px;
+    height: 24px;
   }
   .step-line-right-sm {
-    height: 31px;
+    height: 20px;
+  }
+  .step-line-right-check {
+    height: 19px;
   }
 }
 @media only screen and (min-width: 424px) {
@@ -669,5 +611,13 @@ input[type='radio'] {
   ul.navbar-nav.second-menu.grey-bg.pt-3 {
     display: grid;
     grid-template-columns: auto auto;
+  }
+}
+@media only screen and (max-width: 575px) {
+  .col-md-6.ava-konto-ise.kliendiks-box {
+    margin-left: 10px !important;
+  }
+  .mobile-screen {
+    padding-left: 0;
   }
 }
